@@ -6,11 +6,11 @@
 
 ```go
 import (
-  "gorm.io/driver/sqlite"
+  "github.com/borzovplus/sqlite"
   "gorm.io/gorm"
 )
 
-// github.com/mattn/go-sqlite3
+// github.com/borzovplus/go-sqlite3
 db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{})
 ```
 
